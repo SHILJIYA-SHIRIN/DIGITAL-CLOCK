@@ -1,0 +1,309 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #36454F;
+
+    /* #B2E0D6 */
+}
+.uppersquare{
+    position: absolute;
+    width: 8rem;
+    height: 6rem;
+    top: 10rem;
+    left: 15rem;
+    background-color: #5a696633;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px 3px rgba(224, 255, 255, 0.325);  
+    
+  animation-duration: 1.2s;
+  transition: all ease-in  2s;
+  animation-name: changewidthn;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  
+}
+
+  @keyframes changewidthn {
+    from {
+        transform: translateY(5px);
+    }
+  
+    to {
+        transform: translateX(8px);
+    }
+  }
+.uppersquare:hover{
+    transform: translateX(5px);
+}
+h1{
+    color:#B2E0D6 ;
+    position: absolute;
+    top: 5rem;
+    left: 40%;
+   
+}
+.clockContainers{
+    position: absolute;
+    top: 15rem;
+    left: 22rem;
+    width: 49rem;
+    height: 10rem;
+    background-color: #b2e0d623;
+    border: none;
+    border-radius: 5px;
+    backdrop-filter: blur(15px);
+    box-shadow: 3px 3px 3px 3px rgba(224, 255, 255, 0.325);  
+    transition: ease .5s;
+
+}
+.clockContainers:hover{
+    box-shadow: 5px 5px 4px 4px rgba(226, 243, 243, 0.325);  
+transform: scale(1.1);;
+}
+#hours{
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    width:15rem;
+    height: 8rem;
+    
+    color: white;
+    font-size: 55px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#minutes{
+    position: absolute;
+    top: 1rem;
+    left: 17rem;
+    width:15rem;
+    height: 8rem;
+    color: white;
+    font-size: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#seconds{
+    position: absolute;
+    top: 1rem;
+    left: 33rem;
+    width:15rem;
+    height: 8rem;
+    color: white;
+    font-size: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.colon1{
+    position: absolute;
+    top: 2.8rem;
+    left: 17rem;
+    font-size: 55px;
+    color: wheat;
+}
+.colon2{
+    position: absolute;
+    top: 2.8rem;
+    left: 32rem;
+    font-size: 55px;
+    color: wheat;
+}
+#rightsquare{
+    position: absolute;
+    width: 8rem;
+    height: 6rem;
+    top: 22rem;
+    left: 68rem;
+    background-color: #5a696633;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px 3px rgba(224, 255, 255, 0.325);  
+    
+  animation-duration: 1.2s;
+  transition: all ease-in  2s;
+  animation-name: changewidthn;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.rlowersquare{
+    position: absolute;
+    width: 8rem;
+    height: 6rem;
+    top: 32rem;
+    left: 28rem;
+    background-color: #5a696633;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px 3px rgba(224, 255, 255, 0.325);  
+    
+  animation-duration: 1.2s;
+  transition: all ease-in  2s;
+  animation-name: changewidthn;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.ruppersquare{
+    position: absolute;
+    width: 8rem;
+    height: 6rem;
+    top: 5rem;
+    left: 38rem;
+    background-color: #5a696633;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px 3px rgba(224, 255, 255, 0.325);  
+    
+  animation-duration: 1.2s;
+  transition: all ease-in  2s;
+  animation-name: changewidthn;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.ruppersquare2{
+    position: absolute;
+    width: 8rem;
+    height: 6rem;
+    top: 2rem;
+    left: 58rem;
+    background-color: #5a696633;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px 3px rgba(224, 255, 255, 0.325);  
+    
+  animation-duration: 1.2s;
+  transition: all ease-in  2s;
+  animation-name: changewidthn;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.rlowersquare2{
+    position: absolute;
+    width: 8rem;
+    height: 6rem;
+    top: 38rem;
+    left: 48rem;
+    background-color: #5a696633;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px 3px rgba(224, 255, 255, 0.325);  
+    
+  animation-duration: 1.2s;
+  transition: all ease-in  2s;
+  animation-name: changewidthn;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@media (max-width:768px){
+    .cont{
+        position: absolute;
+        left: 2rem;
+    }
+    
+    .clockContainers{
+        position: absolute;
+       
+        left: 3rem;
+        width: 22rem;
+        height: 65px;
+    }
+    .uppersquare{
+        position: absolute;
+        width: 4rem;
+        height: 4rem;
+        top: 12rem;
+        left: 0rem;
+    }
+    h1{
+        color:#B2E0D6 ;
+        position: absolute;
+        top: 5rem;
+        left:5rem;
+       
+    }
+    #hours{
+        
+        top: -2rem;
+        
+        width:5rem;
+       
+        
+        color: white;
+        font-size: 35px;
+        
+     
+    }
+    #minutes{
+          
+        top: -2rem;
+        
+        width:5rem;
+       left: 8rem;
+        
+        color: white;
+        font-size: 35px;
+    }
+    #seconds{
+        top: -2rem;
+        
+        width:5rem;
+       left: 15rem;
+        
+        color: white;
+        font-size: 35px;
+    }
+    .colon1{
+        
+        top: .3rem;
+        left: 7rem;
+        font-size: 40px;
+        
+    }
+    .colon2{
+        top: .3rem;
+        left: 14rem;
+        font-size: 40px;
+    }
+    #rightsquare{
+        position: absolute;
+        width: 4rem;
+        height: 4rem;
+        top: 25rem;
+        left: 3rem;
+    }
+    .rlowersquare{
+        position: absolute;
+        width: 4rem;
+        height: 4rem;
+        top: 20rem;
+        left: 19rem;
+    }
+    .ruppersquare{
+        position: absolute;
+        width: 4rem;
+        height: 4rem;
+        top: 9rem;
+        left: 22rem;
+    }
+    .ruppersquare2{
+        position: absolute;
+        width: 4rem;
+        height: 4rem;
+        top: 15rem;
+        left: 28rem;
+    }
+    .rlowersquare2{
+        position: absolute;
+        width: 4rem;
+        height: 4rem;
+        top: 9rem;
+        left: 8rem;
+    }
+}
